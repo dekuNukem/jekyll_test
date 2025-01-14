@@ -1,1 +1,16 @@
-title: "hello world!"
+plugins:
+- jekyll-remote-theme
+- jekyll-github-metadata
+
+remote_theme: pages-themes/primer
+
+include:
+  - README.md
+  - LICENSE
+
+title: Film Packaging Archive
+description: High-resolution scans of photographic film packaging
+
+
+url: https://dekunukem.github.io
+baseurl: /jekyll_test
