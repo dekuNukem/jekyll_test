@@ -53,7 +53,11 @@ except Exception as e:
 convert_keys_to_int(database_entries)
 result = sorted(database_entries, key=operator.itemgetter(ITEM_BRAND_KEY, ITEM_PRODUCT_NAME_KEY, ITEM_INDEX_KEY, ITEM_SUBINDEX_KEY))
 
-md_header = """# Film Packaging Archive (Sorted by BRAND)
+md_header = """---
+layout: default
+---
+
+# Film Packaging Archive (Sorted by BRAND)
 
 [Project Home Page](../README.md)
 

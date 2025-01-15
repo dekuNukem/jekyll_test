@@ -15,7 +15,7 @@ Want to contribute? [Check out the guidelines!](../contribution_guide.md)
 Click for full size.
 
 ```
-Last Updated: Jan 14 2025
+Last Updated: 
 
 # of items: 84
 ```

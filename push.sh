@@ -8,6 +8,7 @@ find . -type f -name "*.eggs*" -exec rm -f {} \;
 find . -name "__pycache__" -exec rm -rf {} \;
 
 bundle config set frozen false
+cp index.md README.md
 
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 
