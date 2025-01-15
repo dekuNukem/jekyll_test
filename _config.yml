@@ -1,4 +1,5 @@
 plugins:
+- jekyll-github-metadata
 - jekyll-remote-theme
 - jekyll-relative-links
 - jekyll-loading-lazy
