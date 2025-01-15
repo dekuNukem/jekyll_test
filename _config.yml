@@ -10,12 +10,13 @@ relative_links:
 remote_theme: pages-themes/primer@v0.6.0
 
 include:
-  - film_packaging/by_brand.md
   - README.md
+  - film_packaging/by_brand.md
   - LICENSE
 
 title: Film Packaging Archive
 description: High-resolution scans of photographic film packaging
+
 
 url: https://dekunukem.github.io
 baseurl: /jekyll_test
