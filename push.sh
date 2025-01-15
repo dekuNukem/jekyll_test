@@ -7,6 +7,8 @@ find . -type f -name "*.DS_Store*" -exec rm -f {} \;
 find . -type f -name "*.eggs*" -exec rm -f {} \;
 find . -name "__pycache__" -exec rm -rf {} \;
 
+bundle config set frozen false
+
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 
 git add --all
