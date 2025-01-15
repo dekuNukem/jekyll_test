@@ -1,6 +1,4 @@
 plugins:
-- jekyll-github-metadata
-- jekyll-remote-theme
 - jekyll-relative-links
 - jekyll-loading-lazy
 
@@ -8,7 +6,7 @@ relative_links:
   enabled: true
   collections: true
 
-remote_theme: pages-themes/primer
+theme: minima
 
 include:
   - README.md
@@ -17,7 +15,6 @@ include:
 
 title: Film Packaging Archive
 description: High-resolution scans of photographic film packaging
-
 
 url: https://dekunukem.github.io
 baseurl: /jekyll_test
